@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Person component should not render the inf inside of the div 1`] = `<div />`;
+
+exports[`Person component should render as expected 1`] = `
+<div>
+  <div
+    className="grey"
+  >
+    <p>
+       Result #: 
+      1
+       
+    </p>
+    <p>
+       First Name: 
+      MARK
+       
+    </p>
+    <p>
+       Last Name: 
+      PRENTICE
+       
+    </p>
+    <p>
+       Address: 
+      2413 W TEXAS ST
+       
+    </p>
+    <p>
+       City: 
+      MOSES LAKE
+       
+    </p>
+    <p>
+       State: 
+      WA
+       
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Person component should render with this.props.num==undefined 1`] = `
+<div>
+  <div
+    className="grey"
+  >
+    <p>
+       First Name: 
+      MARK
+       
+    </p>
+    <p>
+       Last Name: 
+      PRENTICE
+       
+    </p>
+    <p>
+       Address: 
+      2413 W TEXAS ST
+       
+    </p>
+    <p>
+       City: 
+      MOSES LAKE
+       
+    </p>
+    <p>
+       State: 
+      WA
+       
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Person component should render with undefined value in this.props.inf 1`] = `
+<div>
+  <div
+    className="grey"
+  >
+    <p>
+       Result #: 
+      1
+       
+    </p>
+    <p>
+       First Name: 
+      MARK
+       
+    </p>
+    <p>
+       Address: 
+      2413 W TEXAS ST
+       
+    </p>
+    <p>
+       City: 
+      MOSES LAKE
+       
+    </p>
+    <p>
+       State: 
+      WA
+       
+    </p>
+  </div>
+</div>
+`;

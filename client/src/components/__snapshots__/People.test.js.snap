@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People component should render as expected 1`] = `
+<div>
+  <div
+    className="containerMy"
+  >
+    <Person
+      inf={
+        Array [
+          "MARK",
+          "PRENTICE",
+          "2413 W TEXAS ST",
+          "MOSES LAKE",
+          "WA",
+        ]
+      }
+      key="1"
+      num={1}
+    />
+    <Person
+      inf={
+        Array [
+          "MARK",
+          "PRENTICE",
+          "11107 50TH AVE SE",
+          "EVERETT",
+          "WA",
+        ]
+      }
+      key="2"
+      num={2}
+    />
+  </div>
+</div>
+`;
+
+exports[`People component should render as expected when the data is fetching (with this.prop.people=true) 1`] = `
+<div>
+  <div>
+    <Component
+      className="spinner"
+      color="#000"
+      component="div"
+      corners={1}
+      direction={1}
+      hwaccel={false}
+      left="50%"
+      length={20}
+      lines={13}
+      loaded={false}
+      loadedClassName="loadedContent"
+      parentClassName="loader"
+      radius={20}
+      rotate={0}
+      scale={1}
+      shadow={false}
+      speed={1}
+      top="50%"
+      trail={60}
+      width={10}
+      zIndex={2000000000}
+    />
+  </div>
+</div>
+`;
+
+exports[`People component should render as expected when the data is not fetching (with this.prop.people=false) 1`] = `<div />`;
+
+exports[`People component should render as expected with error (with this.prop.error) 1`] = `
+<div>
+  <div
+    className="alert alert-danger fade in alertMy"
+    role="alert"
+  >
+    something is wrong
+  </div>
+</div>
+`;
+
+exports[`People component should render as expected with only one matching person 1`] = `
+<div>
+  <div
+    className="containerMy"
+  >
+    <Person
+      inf={
+        Array [
+          "MARK",
+          "PRENTICE",
+          "2413 W TEXAS ST",
+          "MOSES LAKE",
+          "WA",
+        ]
+      }
+      key="1"
+      num={1}
+    />
+  </div>
+</div>
+`;
+
+exports[`People component should render as expected without data about people (with this.prop.people=[]) 1`] = `<div />`;
+
+exports[`People component should render as expected without error (!this.prop.error) 1`] = `<div />`;

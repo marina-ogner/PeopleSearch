@@ -1,0 +1,419 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component should render as expected 1`] = `
+<form
+  className="form-inline needs-validation"
+  onSubmit={[Function]}
+>
+  <div
+    className="form-group top"
+  >
+    <label
+      className="sm-0"
+    >
+      First Name 
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      name="firstName"
+      onChange={[Function]}
+      placeholder="Elon"
+      type="text"
+      value=""
+    />
+    <div
+      className="invalid-feedback inputError"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="sm-0"
+    >
+      Last Name
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Musk"
+      type="text"
+      value=""
+    />
+    <div
+      className="invalid-feedback inputError"
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="sm-0"
+    >
+      State
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      name="state"
+      onChange={[Function]}
+      placeholder="LA"
+      type="text"
+      value=""
+    />
+    <div
+      className="invalid-feedback inputError"
+    />
+  </div>
+  <button
+    className="btn btn-outline-primary"
+    disabled={false}
+    id="button"
+  >
+     Submit
+  </button>
+</form>
+`;
+
+exports[`Form component validation with a missing input should keep entered values and create an error 1`] = `
+<Form
+  getPeople={[Function]}
+>
+  <form
+    className="form-inline needs-validation"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group top"
+    >
+      <label
+        className="sm-0"
+      >
+        First Name 
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="firstName"
+        onChange={[Function]}
+        placeholder="Elon"
+        type="text"
+        value="MARK"
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        Last Name
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="lastName"
+        onChange={[Function]}
+        placeholder="Musk"
+        type="text"
+        value="PRENTICE"
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        State
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="state"
+        onChange={[Function]}
+        placeholder="LA"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter State
+      </div>
+    </div>
+    <button
+      className="btn btn-outline-primary"
+      disabled={false}
+      id="button"
+    >
+       Submit
+    </button>
+  </form>
+</Form>
+`;
+
+exports[`Form component validation with all entered inputs 1`] = `
+<Form
+  getPeople={[Function]}
+>
+  <form
+    className="form-inline needs-validation"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group top"
+    >
+      <label
+        className="sm-0"
+      >
+        First Name 
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="firstName"
+        onChange={[Function]}
+        placeholder="Elon"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        Last Name
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="lastName"
+        onChange={[Function]}
+        placeholder="Musk"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        State
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="state"
+        onChange={[Function]}
+        placeholder="LA"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <button
+      className="btn btn-outline-primary"
+      disabled={false}
+      id="button"
+    >
+       Submit
+    </button>
+  </form>
+</Form>
+`;
+
+exports[`Form component validation with all missing inputs 1`] = `
+<Form
+  getPeople={[Function]}
+>
+  <form
+    className="form-inline needs-validation"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group top"
+    >
+      <label
+        className="sm-0"
+      >
+        First Name 
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="firstName"
+        onChange={[Function]}
+        placeholder="Elon"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter First Name
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        Last Name
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="lastName"
+        onChange={[Function]}
+        placeholder="Musk"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter Last Name
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        State
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="state"
+        onChange={[Function]}
+        placeholder="LA"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter State
+      </div>
+    </div>
+    <button
+      className="btn btn-outline-primary"
+      disabled={false}
+      id="button"
+    >
+       Submit
+    </button>
+  </form>
+</Form>
+`;
+
+exports[`Form component validation with two missing inputs should keep entered value and create errors 1`] = `
+<Form
+  getPeople={[Function]}
+>
+  <form
+    className="form-inline needs-validation"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group top"
+    >
+      <label
+        className="sm-0"
+      >
+        First Name 
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="firstName"
+        onChange={[Function]}
+        placeholder="Elon"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter First Name
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        Last Name
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="lastName"
+        onChange={[Function]}
+        placeholder="Musk"
+        type="text"
+        value=""
+      />
+      <div
+        className="invalid-feedback inputError"
+      >
+        Please enter Last Name
+      </div>
+    </div>
+    <div
+      className="form-group"
+    >
+      <label
+        className="sm-0"
+      >
+        State
+      </label>
+      <input
+        className="form-control"
+        disabled={false}
+        name="state"
+        onChange={[Function]}
+        placeholder="LA"
+        type="text"
+        value="WA"
+      />
+      <div
+        className="invalid-feedback inputError"
+      />
+    </div>
+    <button
+      className="btn btn-outline-primary"
+      disabled={false}
+      id="button"
+    >
+       Submit
+    </button>
+  </form>
+</Form>
+`;
